@@ -1,7 +1,7 @@
 import pyperclip, time, os, glob, easygui, adif_io, json
 from datetime import datetime
 from pyhamtools import LookupLib, Callinfo
-#from scripts import qsl_lookup
+from scripts import qsl_lookup
 
 wsjt_captured = []
 needed_countries = []
